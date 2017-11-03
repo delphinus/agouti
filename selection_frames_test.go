@@ -5,10 +5,10 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti"
-	"github.com/sclevine/agouti/api"
-	. "github.com/sclevine/agouti/internal/matchers"
-	"github.com/sclevine/agouti/internal/mocks"
+	. "github.com/delphinus/agouti"
+	"github.com/delphinus/agouti/api"
+	. "github.com/delphinus/agouti/internal/matchers"
+	"github.com/delphinus/agouti/internal/mocks"
 )
 
 var _ = Describe("Selection Frames", func() {

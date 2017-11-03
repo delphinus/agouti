@@ -3,8 +3,8 @@ package target_test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/sclevine/agouti/api"
-	. "github.com/sclevine/agouti/internal/target"
+	"github.com/delphinus/agouti/api"
+	. "github.com/delphinus/agouti/internal/target"
 )
 
 var _ = Describe("Selector", func() {
